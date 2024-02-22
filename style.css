@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Figtree', sans-serif;;
+}
+:root{
+    --Yellow: hsl(47, 88%, 63%);  
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+}
+.icon{
+    border-radius: 10px;
+}
+.bg-yellow{
+    background-color: var(--Yellow);
+}
+.learning_size{
+    height: 28px;
+    width: 100px;
+    margin-top: 25px;
+}
+.learning_size strong{
+   font-size: 16px;
+   text-align: center;
+   color: black;
+   font-weight: 600;
+}
+.Published{
+    font-weight: 600;
+}
+.title_box{
+    font-weight: 800;
+}
+.user_title{
+    font-weight: 800;
+    position: relative;
+    top: 10px;
+}
+@media(min-width:1200px){
+  .title_box{
+font-size: 25px;
+     }
+}
